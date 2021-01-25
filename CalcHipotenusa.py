@@ -1,0 +1,6 @@
+print('Programa criado para calcular a hipotenusa num triângulo retângulo')
+catadj=float(input('Digite o valor do cateto adjacente'))
+catopst=float(input('Digite o valor do cateto oposto'))
+hip=(catadj**2+catopst**2)
+hip=(hip**(1/2))
+print('O valor da hipotenusa é {}'.format(hip))

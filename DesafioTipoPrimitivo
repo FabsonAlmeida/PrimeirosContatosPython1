@@ -1,0 +1,7 @@
+# Arquivo criado para responder ao desafio 4 da aula 6 do canal Curso em Vídeo do YouTube sobre tipos primitivos
+
+print('O objetivo deste programa é, simplesmente, identificar o tipo primitivo de informações que entrem por teclado')
+
+a=input('digite alguma coisa (pode ser número, letras, palavras, o que for):')
+print('O tipo primitivo do que foi digitado é {}'.format(type(a)))
+print('O caracter digitado é alfanumérico:{}, é numérico:{}, Alfabeto:{}'.format(a.isalnum(),a.isnumeric(),a.isalpha()))

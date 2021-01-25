@@ -1,0 +1,8 @@
+#Este código tem por objetivo testar alguns conceitos de operadores aritméticos
+
+print('Parte 1 do código. Multiplica alguma palavra por uma quantidade de vezes que você vai dizer')
+
+nome=input('Digita alguma palavra')
+x=int(input('Diz quantas vezes você quer que esta palavra se repita'))
+
+print('{}'.format((nome)*x))

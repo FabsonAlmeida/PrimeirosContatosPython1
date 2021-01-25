@@ -1,0 +1,7 @@
+#Os desafios que este programa pretende resolver são referentes às aulas do Curso em vídeo do Guanabara no youtube
+
+import math
+print('Esta primeira parte é para mostrar apenas a parte inteira de um número real digitado')
+n1=float(input('Digite um número real (lembra que não é vírgula, é ponto)'))
+n2=((n1)//1)
+print('A parte inteira é {}'.format(n2))
